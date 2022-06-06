@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "name_official": "United States of America",
+    "name_common": "United States",
+    "flag": "https://flagcdn.com/us.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/tz.svg",
+    "language": "English",
+    "capital": "Washington D.C.",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 2,
+    "name_official": "United Mexican States",
+    "name_common": "Mexico",
+    "flag": "https://flagcdn.com/mx.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/mx.svg",
+    "capital": "Mexico City",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 3,
+    "name_official": "Kingdom of Spain",
+    "name_common": "Spain",
+    "flag": "https://flagcdn.com/es.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/es.svg",
+    "capital": "Madrid",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 4,
+    "name_official": "Ukraine",
+    "name_common": "Ukraine",
+    "flag": "https://flagcdn.com/ua.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ua.svg",
+    "capital": "Kyiv",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 5,
+    "name_official": "Russian Federation",
+    "name_common": "Russia",
+    "flag": "https://flagcdn.com/ru.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ru.svg",
+    "capital": "Moscow",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 6,
+    "name_official": "Status Civitatis Vaticanæ",
+    "name_common": "Vatican City",
+    "flag": "https://flagcdn.com/va.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/va.svg",
+    "capital": "Vatican City",
+    "un_member": false,
+    "nato_member": false
+  },
+  {
+    "id": 7,
+    "name_official": "United Kingdom of Great Britain and Northern Ireland",
+    "name_common": "United Kingdom",
+    "flag": "https://flagcdn.com/gb.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/gb.svg",
+    "language": "English",
+    "capital": "London",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 8,
+    "name_official": "Romania",
+    "name_common": "Romania",
+    "flag": "https://flagcdn.com/ro.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ro.svg",
+    "language": "Romanian",
+    "capital": "Bucharest",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 9,
+    "name_official": "Republic of Poland",
+    "name_common": "Poland",
+    "flag": "https://flagcdn.com/pl.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/pl.svg",
+    "language": "Polish",
+    "capital": "Warsaw",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 10,
+    "name_official": "Canada",
+    "name_common": "Canada",
+    "flag": "https://flagcdn.com/ca.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ca.svg",
+    "language": "English",
+    "capital": "Ottawa",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 11,
+    "name_official": "Poeple's Republic of China",
+    "name_common": "China",
+    "flag": "https://flagcdn.com/cn.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/cn.svg",
+    "language": "Chinese",
+    "capital": "Beijin",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 12,
+    "name_official": "Japan",
+    "name_common": "Japan",
+    "flag": "https://flagcdn.com/jp.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/jp.svg",
+    "language": "Japanese",
+    "capital": "Tokyo",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 13,
+    "name_official": "French Republic",
+    "name_common": "France",
+    "flag": "https://flagcdn.com/fr.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/fr.svg",
+    "language": "French",
+    "capital": "Paris",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 14,
+    "name_official": "Federal Republic of Germany",
+    "name_common": "Germany",
+    "flag": "https://flagcdn.com/de.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/de.svg",
+    "language": "German",
+    "capital": "Berlin",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 15,
+    "name_official": "Italian Republic",
+    "name_common": "Italy",
+    "flag": "https://flagcdn.com/it.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/it.svg",
+    "language": "Italian",
+    "capital": "Rome",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 16,
+    "name_official": "Guatemala",
+    "name_common": "Guatemala",
+    "flag": "https://flagcdn.com/gt.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/gt.svg",
+    "language": "Spanish",
+    "capital": "Guatemala City",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 17,
+    "name_official": "Republic of Ireland",
+    "name_common": "Ireland",
+    "flag": "https://flagcdn.com/ie.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ie.svg",
+    "language": "English",
+    "capital": "Dublin",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 18,
+    "name_official": "Republic of Korea",
+    "name_common": "South Korea",
+    "flag": "https://flagcdn.com/kr.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/kr.svg",
+    "language": "Korean",
+    "capital": "Seoul",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 19,
+    "name_official": "Democratic People's Republic of Korea",
+    "name_common": "North Korea",
+    "flag": "https://flagcdn.com/kp.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/kp.svg",
+    "language": "Korean",
+    "capital": "Pyongyang",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 20,
+    "name_official": "Republic of Armenia",
+    "name_common": "Armenia",
+    "flag": "https://flagcdn.com/am.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/am.svg",
+    "language": "Armenian",
+    "capital": "Yerevan",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 21,
+    "name_official": "Helenic Republic of Greece",
+    "name_common": "Greece",
+    "flag": "https://flagcdn.com/gr.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/gr.svg",
+    "language": "Greek",
+    "capital": "Athens",
+    "un_member": true,
+    "nato_member": true
+  }
+]
