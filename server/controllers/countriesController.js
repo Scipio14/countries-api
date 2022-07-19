@@ -7,8 +7,8 @@ const getCountries = (req, res) => {
   const endIndex = page * limit;
   const results = {};
   results.items = countries.length;
+  results.page = page
   if (endIndex < countries.length) {
-    results.page = page
     results.next = {
       page: page + 1,
       limit: limit,
@@ -30,8 +30,15 @@ const getCountries = (req, res) => {
 
 const getCountry = (req, res) => {
   const id = parseInt(req.params.id);
-  const results = countries.filter((country) => country.id === id);
-  res.json(results);
+  const results = countries.find((country) => country.id === id);
+  if(results){
+    res.json(results);
+
+  }else{
+    res.status(404).json({msg:"No country with that id"})
+  }
+ 
+  
 };
 
 
