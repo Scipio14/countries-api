@@ -25,13 +25,13 @@ const CountriesList = () => {
   };
 
   return (
-    <div className="container-lg">
+    <div className="country-list">
       <h2 className="text-center">Lista de países</h2>
 
       <h3 className="text-muted text-center">
         Página {pageNumber} de {numberOfPages}
       </h3>
-      <div className="row d-flex align-items-center">
+      <div className="card-container">
         {countries.map((country) => (
           <CountryCard country={country} key={country.id} />
         ))}

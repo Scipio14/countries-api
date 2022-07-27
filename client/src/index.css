@@ -1,4 +1,132 @@
-.homeImage {
-  width: 250px;
+:root {
+  --un-colour: #418fde;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.unMember {
+  width: 2rem;
+  display: inline;
   height: auto;
+}
+
+.home {
+  width: 800px;
+  max-width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  text-align: center;
+  color: var(--un-colour);
+}
+
+.home__image {
+  width: 550px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home__content {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding-inline: 1rem;
+}
+
+.home__btn {
+  margin-top: 1.25rem;
+  padding: 0.5rem;
+  background-color: var(--un-colour);
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+  height: 2.5rem;
+  width: 7rem;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  text-align: center;
+  box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+
+/* =========
+COUNTRY LIST
+============ */
+
+.country-list h2,
+h3 {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  border: 2px solid brown;
+  flex-direction: column;
+  margin-inline: auto;
+  align-items: center;
+  width: 1000px;
+  max-width: 100%;
+}
+
+.card {
+  border: thick solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 900px;
+  margin-bottom: 3rem;
+}
+
+.card__image {
+  width: 500px;
+  height: auto;
+  border: 2px solid yellow;
+  border-radius: 0.5rem;
+  object-position: 0 50%;
+}
+
+.card__coat {
+  width: 13rem;
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  border: 2px solid pink;
+  margin-inline: auto;
+  height: auto;
+}
+
+.card-body p:nth-child(2) {
+  display: inline-block;
+}
+@media screen and (min-width: 600px) {
 }
