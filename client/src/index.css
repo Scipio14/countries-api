@@ -1,153 +1,70 @@
 :root {
-  --un-colour: #418fde;
-}
-
-html {
-  box-sizing: border-box;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  overflow-x: hidden;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
 body {
   margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  margin: 0;
-  padding: 0;
-}
-
-.unMember {
-  width: 2rem;
-  display: inline;
-  height: auto;
-}
-
-.home {
-  width: 800px;
-  max-width: 100%;
   display: flex;
-  margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-.home h1 {
-  text-align: center;
-  color: var(--un-colour);
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-.home__image {
-  width: 550px;
-  max-width: 100%;
-  height: auto;
-}
-
-.home__content {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  padding-inline: 1rem;
-}
-
-.home__btn {
-  margin-top: 1.25rem;
-  padding: 0.5rem;
-  background-color: var(--un-colour);
-  color: #f4f4f4;
-  text-decoration: none;
-  font-weight: bold;
-  height: 2.5rem;
-  width: 7rem;
-  border: 2px solid black;
-  border-radius: 0.25rem;
-  text-align: center;
-  box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.15);
-}
-
-/* =========
-COUNTRY LIST
-============ */
-
-.country-list h2,
-h3 {
-  text-align: center;
-  text-decoration: none;
-}
-
-.card-container {
-  display: flex;
-  border: 2px solid brown;
-  flex-direction: column;
-  margin-inline: auto;
-  align-items: center;
-  width: 1000px;
-  max-width: 100%;
-}
-
-.card {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 500px;
-  height: 500px;
-  margin-bottom: 3rem;
-  text-decoration: none;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
-}
-
-.card__image {
-  position: absolute;
-  left: 20%;
-  width: clamp(250px, 60%, 80%);
-  height: auto;
-  border: 2px solid yellow;
-  border-radius: 0.5rem;
-}
-
-.card__coat {
-  width: 13rem;
-  display: block;
-  text-align: center;
-  margin-top: 1.5rem;
-  border: 2px solid pink;
-  margin-inline: auto;
-  height: auto;
-}
-
-.card-title h2,
-a {
-  text-decoration: none;
-  color: darkblue;
-}
-
-.card-body p:nth-child(2) {
-  display: inline-block;
-}
-@media screen and (min-width: 600px) {
-}
-
-.country-list button {
-  background-color: #418fde;
-  margin: 0.25rem;
-  border-radius: 50px;
-  color: white;
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
   cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }

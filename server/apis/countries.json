@@ -8,7 +8,11 @@
     "language": "English",
     "capital": "Washington D.C.",
     "un_member": true,
-    "nato_member": true
+    "nato_member": true,
+    "anthem": {
+      "title": "The Star Spangled Banner",
+      "music": "https://nationalanthems.info/us.mp3"
+    }
   },
   {
     "id": 2,
@@ -16,9 +20,14 @@
     "name_common": "Mexico",
     "flag": "https://flagcdn.com/mx.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/mx.svg",
+    "language": "Spanish",
     "capital": "Mexico City",
     "un_member": true,
-    "nato_member": false
+    "nato_member": false,
+    "anthem": {
+      "title": "Mexicanos, al grito de guerra",
+      "music": "https://nationalanthems.info/mx.mp3"
+    }
   },
   {
     "id": 3,
@@ -26,9 +35,14 @@
     "name_common": "Spain",
     "flag": "https://flagcdn.com/es.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/es.svg",
+    "language": "Spanish",
     "capital": "Madrid",
     "un_member": true,
-    "nato_member": true
+    "nato_member": true,
+    "anthem": {
+      "title": "Real Marcha de Granaderos",
+      "music": "https://nationalanthems.info/es.mp3"
+    }
   },
   {
     "id": 4,
@@ -36,6 +50,7 @@
     "name_common": "Ukraine",
     "flag": "https://flagcdn.com/ua.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ua.svg",
+    "language": "Ukranian",
     "capital": "Kyiv",
     "un_member": true,
     "nato_member": false
@@ -46,6 +61,7 @@
     "name_common": "Russia",
     "flag": "https://flagcdn.com/ru.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/ru.svg",
+    "language": "Russian",
     "capital": "Moscow",
     "un_member": true,
     "nato_member": false
@@ -56,6 +72,7 @@
     "name_common": "Vatican City",
     "flag": "https://flagcdn.com/va.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/va.svg",
+    "language": "Latin",
     "capital": "Vatican City",
     "un_member": false,
     "nato_member": false
@@ -106,7 +123,7 @@
   },
   {
     "id": 11,
-    "name_official": "Poeple's Republic of China",
+    "name_official": "People's Republic of China",
     "name_common": "China",
     "flag": "https://flagcdn.com/cn.svg",
     "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/cn.svg",
@@ -224,5 +241,49 @@
     "capital": "Athens",
     "un_member": true,
     "nato_member": true
+  },
+  {
+    "id": 22,
+    "name_official": "Kingdom of Thailand",
+    "name_common": "Thailand",
+    "flag": "https://flagcdn.com/th.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/th.svg",
+    "language": "Thai",
+    "capital": "Bangkok",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 23,
+    "name_official": "Republic of Turkey",
+    "name_common": "Turkey",
+    "flag": "https://flagcdn.com/tr.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/tr.svg",
+    "language": "Turkish",
+    "capital": "Ankara",
+    "un_member": true,
+    "nato_member": true
+  },
+  {
+    "id": 24,
+    "name_official": "Republic of India",
+    "name_common": "India",
+    "flag": "https://flagcdn.com/in.svg",
+    "coat_arms": "https://mainfacts.com/media/images/coats_of_arms/in.svg",
+    "language": "English",
+    "capital": "New Delhi",
+    "un_member": true,
+    "nato_member": false
+  },
+  {
+    "id": 25,
+    "name_official": "Scotland",
+    "name_common": "Scotland",
+    "flag": "https://flagcdn.com/gb-sct.svg",
+    "coat_arms": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Royal_Arms_of_the_Kingdom_of_Scotland.svg",
+    "language": "English",
+    "capital": "Edinburgh",
+    "un_member": false,
+    "nato_member": false
   }
 ]
