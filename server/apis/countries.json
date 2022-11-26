@@ -53,7 +53,11 @@
     "language": "Ukranian",
     "capital": "Kyiv",
     "un_member": true,
-    "nato_member": false
+    "nato_member": false,
+    "anthem": {
+      "title": "Ще не вмерла України",
+      "music": "https://nationalanthems.info/ua.mp3"
+    }
   },
   {
     "id": 5,
