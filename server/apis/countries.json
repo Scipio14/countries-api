@@ -68,7 +68,11 @@
     "language": "Russian",
     "capital": "Moscow",
     "un_member": true,
-    "nato_member": false
+    "nato_member": false,
+    "anthem": {
+      "title": "Государственный гимн Российской Федерации",
+      "music": "https://nationalanthems.info/ru.mp3"
+    }
   },
   {
     "id": 6,
@@ -79,7 +83,11 @@
     "language": "Latin",
     "capital": "Vatican City",
     "un_member": false,
-    "nato_member": false
+    "nato_member": false,
+    "anthem": {
+      "title": "Hymnus Pontificius",
+      "music": "https://nationalanthems.info/va.mp3"
+    }
   },
   {
     "id": 7,
