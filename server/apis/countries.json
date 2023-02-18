@@ -11,7 +11,8 @@
     "nato_member": true,
     "anthem": {
       "title": "The Star Spangled Banner",
-      "music": "https://nationalanthems.info/us.mp3"
+      "music": "https://nationalanthems.info/us.mp3",
+      "lyrics": "Oh, say can you see by the dawn’s early light<br>What so proudly we hailed at the twilight’s last gleaming?<br>Whose broad stripes and bright stars thru the perilous fight,<br>O’er the ramparts we watched were so gallantly streaming?<br>And the rocket’s red glare, the bombs bursting in air,<br>Gave proof thru the night that our flag was still there.<br>Oh, say does that star-spangled banner yet wave<br>O’er the land of the free and the home of the brave?"
     }
   },
   {
@@ -26,7 +27,8 @@
     "nato_member": false,
     "anthem": {
       "title": "Mexicanos, al grito de guerra",
-      "music": "https://nationalanthems.info/mx.mp3"
+      "music": "https://nationalanthems.info/mx.mp3",
+      "lyrics": "Mexicanos, al grito de guerra<br>el acero aprestad y el bridón<br>y retiemble en sus centros la tierra<br>al sonoro rugir del cañón.<br><br>1. Ciña ¡oh Patria! tus sienes de oliva<br>de la paz el arcángel divino<br>que en el cielo tu eterno destino<br>por el dedo de Dios se escribió.<br>Mas si osare un extraño enemigo<br>profanar con su planta tu suelo<br>piensa ¡oh Patria querida! que el cielo<br>un soldado en cada hijo te dio.<br><br>Mexicanos, al grito de guerra<br>el acero aprestad y el bridón<br>y retiemble en sus centros la tierra<br>al sonoro rugir del cañón.<br><br>"
     }
   },
   {

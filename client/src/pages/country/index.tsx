@@ -63,6 +63,15 @@ export const CountryPage: FC = () => {
                 {country?.anthem ? (
                   <ReactAudioPlayer src={country?.anthem?.music} controls />
                 ) : null}
+                <Typography variant="body1">
+                  {country?.anthem?.lyrics && (
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: country?.anthem?.lyrics,
+                      }}
+                    ></p>
+                  )}
+                </Typography>
               </Grid>
               <Grid item xs={6}>
                 <img

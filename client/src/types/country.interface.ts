@@ -14,4 +14,5 @@ export interface TypeCountry {
 export interface Anthem {
   title: string;
   music: string;
+  lyrics?: string;
 }
